@@ -1,0 +1,19 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 0.2.1
+apiversion: 2
+architectures: arm64 x86_64
+mac: false
+description: Native bottom-edge pull-up trigger with reversible progress for Titanium iOS 26+
+author: DesignByMind LLC
+license: MIT
+copyright: Copyright (c) 2026 DesignByMind LLC
+
+# these should not be edited
+name: TiDragToDismiss
+moduleid: ti.dragtodismiss
+guid: eec13487-1a6c-4568-8f1b-84c5170146ee
+platform: iphone
+minsdk: 13.4.1.GA

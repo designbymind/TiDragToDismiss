@@ -1,0 +1,9 @@
+<Alloy>
+	<TableViewRow id="row" selectionStyle="Ti.UI.iOS.TableViewCellSelectionStyle.NONE">
+		<View class="vertical w-screen h-auto mx-5 mt-5">
+			<Label id="name" class="w-screen h-auto font-bold" />
+			<Label id="message" class="w-screen h-auto mt-3" />
+			<Label id="footer" class="w-screen h-auto mt-3" text="Tap to verify that table touches still work" />
+		</View>
+	</TableViewRow>
+</Alloy>

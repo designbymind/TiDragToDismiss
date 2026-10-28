@@ -1,0 +1,6 @@
+<Alloy>
+	<View id="footer" class="w-screen">
+		<ProgressBar id="progressBar" class="mx-5" min="0" max="1" value="0" />
+		<Label id="label" class="mx-5 h-auto" text="Pull up to go back" />
+	</View>
+</Alloy>

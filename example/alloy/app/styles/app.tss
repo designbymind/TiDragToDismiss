@@ -1,0 +1,10 @@
+// The small set of utility classes used by these examples; no PurgeTSS dependency.
+'View': { width: Ti.UI.SIZE, height: Ti.UI.SIZE }
+'.font-bold': { font: { fontWeight: 'bold' } }
+'.h-auto': { height: Ti.UI.SIZE }
+'.mt-3': { top: 12 }
+'.mt-5': { top: 20 }
+'.mx-5': { left: 20, right: 20 }
+'.vertical': { layout: 'vertical' }
+'.w-screen': { width: Ti.UI.FILL }
+'.wh-screen': { width: Ti.UI.FILL, height: Ti.UI.FILL }

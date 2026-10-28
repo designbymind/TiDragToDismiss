@@ -1,0 +1,3 @@
+'#footer': { height: 96, touchEnabled: false }
+'#progressBar': { top: 20, height: 16, width: Ti.UI.FILL }
+'#label': { top: 46, font: { fontSize: 14 }, textAlign: 'center' }

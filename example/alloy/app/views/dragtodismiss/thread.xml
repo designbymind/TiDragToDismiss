@@ -1,0 +1,12 @@
+<Alloy>
+	<Window id="window" title="Thread" onOpen="attachGesture" onClose="onClosed">
+		<RightNavButton><Button id="toggle" title="Disable" onClick="toggleEnabled" /></RightNavButton>
+		<View id="statusPanel" class="w-screen">
+			<Label id="status" class="mx-5" text="Scroll to the bottom, then pull up" />
+			<ProgressBar id="progressBar" class="mx-5" min="0" max="1" value="0" />
+		</View>
+		<TableView id="table" class="w-screen" onClick="rowTapped">
+			<HeaderView><View class="w-screen h-auto"><Label id="instructions" class="mx-5 h-auto" text="Pull up near the bottom. The ring fills from 0 to 1; dragging back down reduces it. Release at 1 to return to the examples. Ordinary scrolling and fast flings should keep this screen open." /></View></HeaderView>
+		</TableView>
+	</Window>
+</Alloy>

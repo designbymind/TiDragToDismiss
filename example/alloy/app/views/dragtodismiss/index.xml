@@ -1,0 +1,18 @@
+<Alloy>
+	<NavigationWindow id="navigation" onClose="onProjectClosed">
+		<Window id="window" title="Drag to Dismiss">
+			<LeftNavButton><Button title="Components" onClick="closeProject" /></LeftNavButton>
+			<TableView id="examples" class="wh-screen" onClick="openExample">
+				<HeaderView
+					><View class="w-screen h-auto"><Label id="intro" class="mx-5 h-auto" text="Open a thread, scroll to its bottom, then pull up. Fill the indicator and release to go back. Pull back down before releasing to cancel." /></View
+				></HeaderView>
+				<TableViewRow title="Default ring and rotating arrow" hasChild="true" />
+				<TableViewRow title="Custom SF Symbol" hasChild="true" />
+				<TableViewRow title="Local image icon" hasChild="true" />
+				<TableViewRow title="Custom progress indicator" hasChild="true" />
+				<TableViewRow title="Short table (fits on screen)" hasChild="true" />
+				<TableViewRow title="Footer ProgressBar and label" hasChild="true" />
+			</TableView>
+		</Window>
+	</NavigationWindow>
+</Alloy>

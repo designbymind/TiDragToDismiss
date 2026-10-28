@@ -1,0 +1,12 @@
+.DS_Store
+ios/build/
+ios/dist/
+validation/build/
+*.xcuserstate
+xcuserdata/
+ios/metadata.json
+validation/package.json
+validation/native-checks.json
+validation/symbol-preview.png
+validation/color-preview.png
+validation/release-ordering-regression.json

@@ -1,0 +1,4 @@
+'#row': { height: Ti.UI.SIZE, backgroundColor: 'transparent' }
+'#name': { font: { fontSize: 16 } }
+'#message': { font: { fontSize: 16 } }
+'#footer': { bottom: 20, font: { fontSize: 12 }, color: '#888888' }

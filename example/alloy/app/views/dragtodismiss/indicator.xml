@@ -1,0 +1,5 @@
+<Alloy>
+	<View id="indicator" width="55" height="55" backgroundColor="#E8F1FF" borderRadius="27.5" touchEnabled="false">
+		<Label id="percent" text="0%" color="#0066CC" font="{fontSize: 14, fontWeight: 'bold'}" />
+	</View>
+</Alloy>

@@ -1,0 +1,5 @@
+<Alloy>
+    <Window id="index" title="TiDragToDismiss">
+        <Button title="Open Drag to Dismiss examples" onClick="openExamples" />
+    </Window>
+</Alloy>

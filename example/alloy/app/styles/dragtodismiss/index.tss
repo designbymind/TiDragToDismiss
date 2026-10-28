@@ -1,0 +1,3 @@
+'#window': { backgroundColor: '#FFFFFF' }
+'#intro': { top: 20, bottom: 20, font: { fontSize: 16 }, color: '#333333' }
+'TableViewRow': { height: 64, color: '#111111' }

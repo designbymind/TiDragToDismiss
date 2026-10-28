@@ -1,0 +1,6 @@
+'#window': { backgroundColor: '#FFFFFF' }
+'#statusPanel': { top: 0, height: 68 }
+'#status': { top: 8, height: 26, color: '#333333', font: { fontSize: 14 }, textAlign: 'center' }
+'#progressBar': { top: 36, height: 16, width: Ti.UI.FILL }
+'#table': { top: 68, bottom: 0, height: Ti.UI.FILL, rowHeight: Ti.UI.SIZE, separatorColor: '#DDDDDD' }
+'#instructions': { top: 20, bottom: 20, color: '#555555', font: { fontSize: 15 } }
