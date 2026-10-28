@@ -22,8 +22,8 @@ Extract it into your Titanium application root; the ZIP creates
 an iOS minimum deployment target of 26.0 or later. Clean/rebuild the application
 when replacing an existing native module installation.
 
-For a fresh Alloy app, see the [complete Alloy example](example/alloy/README.md).
-For a Classic app, use [example/app.js](example/app.js). The examples have no
+For a fresh Alloy app, see the [complete Alloy example](https://github.com/designbymind/TiDragToDismiss/blob/iOS-v0.2.1/example/alloy/README.md).
+For a Classic app, use [example/app.js](https://github.com/designbymind/TiDragToDismiss/blob/iOS-v0.2.1/example/app.js). The examples have no
 other native module or PurgeTSS dependency.
 
 ## Quick start
@@ -160,7 +160,7 @@ The Alloy footer uses the event's `ready` field for its release prompt.
 
 ## Footer ProgressBar example
 
-The [Alloy demo](example/alloy/README.md) includes six variations: default ring,
+The [Alloy demo](https://github.com/designbymind/TiDragToDismiss/blob/iOS-v0.2.1/example/alloy/README.md) includes six variations: default ring,
 SF Symbol, local image, custom percentage view, short table, and a TableView
 footer ProgressBar with a label underneath. Its controller updates both header
 and footer from `event.progress` and uses native `event.ready` for the release
@@ -241,5 +241,5 @@ DEVELOPER_DIR="<Xcode.app>/Contents/Developer" ti build -p ios --build-only \
 
 The ZIP is kept at `ios/dist/ti.dragtodismiss-iphone-0.2.1.zip`.
 The distribution contains arm64 device and arm64/x86_64 simulator libraries.
-See [VALIDATION.md](VALIDATION.md) for evidence and remaining device checks, and
-[CHANGELOG.md](CHANGELOG.md) for the first public release contents.
+See [VALIDATION.md](https://github.com/designbymind/TiDragToDismiss/blob/iOS-v0.2.1/VALIDATION.md) for evidence and remaining device checks, and
+[CHANGELOG.md](https://github.com/designbymind/TiDragToDismiss/blob/iOS-v0.2.1/CHANGELOG.md) for the first public release contents.
