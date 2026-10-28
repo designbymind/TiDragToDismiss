@@ -1,13 +1,18 @@
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/ti-dragtodismiss-hero-dark.png">
+  <source media="(prefers-color-scheme: light)" srcset="assets/ti-dragtodismiss-hero-light.png">
+  <img alt="An example guide of how to properly use the drag-to-dismiss gesture" src="assets/ti-dragtodismisshero-light.png" width="768">
+</picture>
+
 # TiDragToDismiss
 
-`ti.dragtodismiss` **0.2.1** · Titanium SDK 13.4.1+ · **iOS 26+** · UIKit · MIT
+Titanium SDK 13.4.1+ · **iOS 26+** · UIKit · MIT
 
 Pull upward near the bottom of an existing Titanium TableView, fill the indicator,
 and release to emit `trigger`. Your controller owns navigation and chooses whether
 to pop, close, or perform another action. The module never closes a window itself.
 
-The default presentation follows the pull-up interaction in Kavsoft's
-ThreadsDismiss sample: a 55-point circular indicator reveals over the
+**Inspired by the Threads iOS app:** a 55-point circular indicator reveals over the
 first 50 points of bottom overscroll; two arcs fill, the chevron turns toward the
 back direction, the circle fills at the threshold, and selection haptics mark
 readiness. It is an independent UIKit implementation; no supplied Swift source
